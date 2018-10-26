@@ -18,6 +18,23 @@ C:\Users\U0I6910>taskkill /PID 13044 /F
 SUCCESS: The process with PID 13044 has been terminated.
 
 
+BACKEND: node server.js
+FONTEND: ng serve
+
+::: GIT :::
+…or create a new repository on the command line
+echo "# app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/endriazizi/app.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/endriazizi/app.git
+git push -u origin master
+
+
 http://B10FINW0034:3000
 http://B10FINW0034:3000
 
