@@ -1,0 +1,35 @@
+http://www.codeman.in/blog/windows-kill-process-by-port-number-157
+Run command-line as an Administrator.
+Then run the below mention command. type your port number in yourPortNumber 
+
+netstat -ano | findstr :3000
+
+OUTPUT:
+C:\Users\U0I6910> netstat -ano | findstr :3000
+  TCP    0.0.0.0:3000           0.0.0.0:0              LISTENING       13044
+  TCP    [::]:3000              [::]:0                 LISTENING       13044
+
+
+
+taskkill /PID <typeyourPIDhere> /F. 
+
+OUTPUT:
+C:\Users\U0I6910>taskkill /PID 13044 /F
+SUCCESS: The process with PID 13044 has been terminated.
+
+
+http://B10FINW0034:3000
+http://B10FINW0034:3000
+
+ng serve --host 10.202.32.181
+ng serve --host B10FINW0034 --disable-host-check
+http://B10FINW0034:4200/streams
+baseUrl: 
+C:\Users\U0I6910\app\chatapp-frontend\e2e \protractor.conf.js
+
+https://stackoverflow.com/questions/14043926/node-js-connect-only-works-on-localhost
+
+npm install web-push -g
+ web-push generate-vapid-keys --json
+
+ npm install @angular/service-worker --save
