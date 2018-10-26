@@ -21,7 +21,14 @@ SUCCESS: The process with PID 13044 has been terminated.
 BACKEND: node server.js
 FONTEND: ng serve
 
+
 ::: GIT :::
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+git checkout -b [name_of_your_new_branch]
+git checkout [name_of_your_new_branch]
+git push origin [name_of_your_new_branch]
+git branch
+
 …or create a new repository on the command line
 echo "# app" >> README.md
 git init
